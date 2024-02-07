@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Valentine's Day Collage</title>
+  <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap" rel="stylesheet">
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: 'Great Vibes', cursive;
+      background-color: #fce6f2;
+    }
+
+    #collage {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+    }
+
+    .photo {
+      width: 33.33%;
+      height: 50vh;
+      object-fit: cover;
+      border-radius: 10px;
+    }
+
+    .card {
+      background-color: #fff;
+      padding: 20px;
+      border-radius: 10px;
+      box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.5);
+      text-align: center;
+      position: absolute;
+    }
+
+    .message {
+      font-size: 36px;
+      color: #ff347d;
+    }
+  </style>
+</head>
+<body>
+  <div id="collage">
+    <!-- Photos -->
+    <img src="photo1.jpeg" class="photo">
+    <img src="photo2.jpeg" class="photo">
+    <img src="photo3.jpeg" class="photo">
+    <img src="photo4.jpeg" class="photo">
+    <img src="photo5.jpeg" class="photo">
+    <img src="photo6.jpeg" class="photo">
+
+    <!-- Message Card -->
+    <div class="card" style="top: 50%; left: 50%; transform: translate(-50%, -50%);">
+      <div class="message">
+        You have made me the happiest man alive Shivi, I love you and will always do!! Happy Valentine's Day!!!
+      </div>
+    </div>
+  </div>
+</body>
+</html>
